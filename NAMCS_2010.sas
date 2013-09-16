@@ -3,6 +3,12 @@
 * Licensed under the Apache License, Version 2.0
 * http://www.apache.org/licenses/LICENSE-2.0
 
+* Notes:
+* These programs can only be used against the 2010 datasets.
+* The format and contents for prior years vary significantly, and need to be processed with
+*   their own INPUT, FORMAT and LABEL files.
+* Similar programs can be used to export the NHAMCS data for OutPatient and Emergency Department datasets, as well.
+
 libname namcs ‘/Users/rm/health_data/namcs/sas_data’;
 FILENAME nam10 ‘/Users/rm/health_data/namcs/NAMCS2010.txt’;
 FILENAME nam10inp ‘/Users/rm/health_data/namcs/nam10inp.txt’;
