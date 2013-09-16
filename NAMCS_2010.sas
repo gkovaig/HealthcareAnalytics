@@ -1,7 +1,7 @@
 * SAS program to ingest National Ambulatory Medical Care Survey (NAMCS) data for 2010 from cdc.gov
-# Copyright 2013 Raj N Manickam
-# Licensed under the Apache License, Version 2.0
-# http://www.apache.org/licenses/LICENSE-2.0
+* Copyright 2013 Raj N Manickam
+* Licensed under the Apache License, Version 2.0
+* http://www.apache.org/licenses/LICENSE-2.0
 
 libname namcs ‘/Users/rm/health_data/namcs/sas_data’;
 FILENAME nam10 ‘/Users/rm/health_data/namcs/NAMCS2010.txt’;
